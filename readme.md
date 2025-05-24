@@ -1,27 +1,36 @@
 # 🇵🇰 Urdu AI Voice Agent
 
-An open-source **Urdu Conversational AI Agent** designed to automate customer support and voice-based interactions for Pakistani businesses. Inspired by platforms like [Bland AI](https://www.bland.ai/), this project focuses exclusively on supporting **Urdu language users** via voice and text through AI-powered conversation.
+An open-source **Urdu Conversational AI Agent** designed to serve businesses and users with intelligent, voice-based customer support — in natural Urdu. Inspired by [Bland AI](https://www.bland.ai/), this project brings similar functionality to the Urdu-speaking market.
 
 ---
 
-## 🧠 Project Summary
+## 🧠 What It Does
 
-This project utilizes state-of-the-art language models and speech tools to enable natural, fluent Urdu communication between users and businesses. It is designed to work across voice calls, SMS, and web chat — acting as a virtual assistant or customer support representative.
+This AI agent enables businesses to respond to users via **voice and text in Urdu**, using cutting-edge speech and language technologies. It understands spoken Urdu, reasons with a large language model (LLM), and responds naturally — either through text or speech.
 
 ---
 
-## 🔍 Features
+## 🛠️ Technologies Used
 
-- 🎙️ **Voice Recognition** (using [Whisper](https://github.com/openai/whisper))  
-- 🗣️ **Natural Urdu Dialogue** (powered by fine-tuned multilingual LLMs)  
-- 📞 **Voice Call Handling** (Twilio/Asterisk integration)  
-- 💬 **Text Interaction** via Webchat or SMS  
-- 🧠 **Customizable Knowledge Base**  
-- 📅 **Appointment Booking** and CRM Integration  
-- 🕒 **24/7 Auto-Responder** for businesses  
-- ☁️ **Cloud-deployable & Scalable**
+- 🗂️ **RAG** (Retrieval-Augmented Generation) for informed responses  
+- 📡 **APIs** for external data and CRM integration  
+- 🗣️ **Speech-to-Text (STT)** using Whisper  
+- 🔊 **Text-to-Speech (TTS)** for Urdu audio replies  
+- 🧠 **LLM-based Reasoning** for intelligent conversations  
+- 🎙️ **Voice Recognition** and call handling (Twilio/Asterisk)
 
 ---
 
 ## 🏗️ System Architecture
 
+![System Architecture](architecture.png)
+
+---
+
+## 🚀 Quick Start
+
+```bash
+git clone https://github.com/yourusername/urdu-ai-voice-agent.git
+cd urdu-ai-voice-agent
+pip install -r requirements.txt
+python app.py
